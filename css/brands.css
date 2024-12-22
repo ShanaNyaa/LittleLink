@@ -295,9 +295,9 @@
 
 /* Ko-fi */
 .button-ko-fi {
-	--button-text:#ffffff;
-	--button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+	--button-text:#000000;
+	--button-background:#13C3FF;
+  /* --button-border:1px solid #FFFFFF; */
 }
 
 /* Last.fm */
