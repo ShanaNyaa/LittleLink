@@ -352,6 +352,19 @@
 	--button-border:1px solid #000000;
 }
 
+/* Meetup */
+.button-meetup {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #000000;
+}
+
+/* Meetup Alt */
+.button-meetup-alt {
+	--button-text:#ffffff;
+	--button-background:#ED1C40;
+}
+
 /* Medium */
 .button-medium {
 	--button-text:#ffffff;
@@ -429,7 +442,14 @@
 /* Signal */
 .button-signal {
 	--button-text:#ffffff;
-	--button-background:#3a76f0;
+	--button-background:#3B45FD;
+}
+
+/* Signal Alt */
+.button-signal-alt {
+	--button-text:#3B45FD;
+	--button-background:#E3E8FE;
+	--button-border:1px solid #000000;
 }
 
 /* Slack */

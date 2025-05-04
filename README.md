@@ -65,12 +65,14 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 ### 💖 Supporters
 You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of the [LittleLink.io](https://littlelink.io) website.
 
-#### 🏢 Business Supporters ($75 tier)
+#### 🏢 Business Supporters
+• **[Unallocated Space](https://connect.unallocatedspace.org/)** | Hacker/Makerspace in Millersville, MD, serving the greater Baltimore-Washington area
+
 • **[links.dev](https://github.com/fatih-yavuz/links.dev)**
 
 [![Add Your Company Name](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-company.svg)](https://www.buymeacoffee.com/seth/e/50574)
 
-#### ✨ Individual Supporters ($25 tier)
+#### ✨ Individual Supporters
 • **[Drew Davis](https://connect.davisdre.me)**
 
 • **[Robotter112](https://robotter112.de/)**
@@ -78,16 +80,9 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
 
 #### 🐙 Active GitHub Sponsors
-• **[@nghialele](https://github.com/nghialele)**
-
 • **[Your Name Here](https://github.com/sponsors/sethcottle)**
 
 [![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
-
-#### ❤️ Patreon Members
-• **[Your Name Here](https://www.patreon.com/sethcottle)**
-
-[![Patreon](https://cdn.cottle.cloud/littlelink/button-patreon.svg)](https://www.patreon.com/sethcottle)
 
 
 #### 🥰 More Ways to Support LittleLink
@@ -116,3 +111,19 @@ To help build a more privacy focused product, we recommend using [Fathom Analyti
 ###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
 [![Fathom](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
+
+---
+### 🐳 Docker Support
+LittleLink includes Docker support for easy deployment and development. All Docker-related files are located in the `docker/` directory.
+
+To run LittleLink using Docker:
+
+```bash
+docker compose -f docker/compose.yaml up
+```
+
+This will make the site available at http://localhost:8080
+
+For more information about Docker configuration, see [docker/README.md](docker/README.md).
+
+---
